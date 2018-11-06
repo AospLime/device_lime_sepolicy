@@ -1,13 +1,13 @@
 #
 # This policy configuration will be used by all products that
-# inherit from fiOS
+# inherit from AOSDP
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/fi/sepolicy/common/public
+    device/aosdp/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/fi/sepolicy/common/private
+    device/aosdp/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/fi/sepolicy/common/vendor
+    device/aosdp/sepolicy/common/vendor

@@ -1,9 +1,9 @@
 #
 # This policy configuration will be used by all qcom products
-# that inherit from fiOS
+# that inherit from AOSDP
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/fi/sepolicy/qcom/common \
-    device/fi/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/aosdp/sepolicy/qcom/common \
+    device/aosdp/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
 
