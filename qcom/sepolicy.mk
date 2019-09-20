@@ -4,5 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/aosdp/sepolicy/qcom/common \
-    device/aosdp/sepolicy/qcom/vendor
+    device/magma/sepolicy/qcom/common \
+    device/magma/sepolicy/qcom/vendor
