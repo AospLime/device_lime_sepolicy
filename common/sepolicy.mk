@@ -1,6 +1,6 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Magma
+# inherit from AospLime
 #
 
 ifeq ($(TARGET_COPY_OUT_VENDOR), vendor)
@@ -10,16 +10,16 @@ endif
 endif
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/magma/sepolicy/common/public
+    device/lime/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/magma/sepolicy/common/private
+    device/lime/sepolicy/common/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/magma/sepolicy/common/dynamic
+    device/lime/sepolicy/common/dynamic
 else
 BOARD_SEPOLICY_DIRS += \
-    device/magma/sepolicy/common/dynamic \
-    device/magma/sepolicy/common/vendor
+    device/lime/sepolicy/common/dynamic \
+    device/lime/sepolicy/common/vendor
 endif

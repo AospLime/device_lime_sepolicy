@@ -4,5 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/magma/sepolicy/qcom/common \
-    device/magma/sepolicy/qcom/vendor
+    device/lime/sepolicy/qcom/common \
+    device/lime/sepolicy/qcom/vendor
